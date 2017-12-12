@@ -11,7 +11,7 @@ end
 def line(array)
   empty = []
   if array.length<1
-    "The line is currently empty."
+  puts  "The line is currently empty."
   else
   array.each_with_index do |name, index|
     empty.push("#{index+1}. #{name}")
