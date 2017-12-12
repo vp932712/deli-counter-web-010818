@@ -17,7 +17,7 @@ def line(array)
     empty.push("#{index+1}. #{name}")
 
   end
-  "The line is currently: " + empty.join(", ")
+puts  "The line is currently: " + empty.join(", ")
 end
 end
 
