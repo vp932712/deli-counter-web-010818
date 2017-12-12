@@ -2,7 +2,7 @@
 def take_a_number(array, name)
   array.push(name)
   position = array.length
-  "Welcome, #{name}. You are number #{position} in line."
+puts  "Welcome, #{name}. You are number #{position} in line."
 
 end
 
@@ -12,6 +12,7 @@ def line(array)
   empty = []
   if array.length<1
   puts  "The line is currently empty."
+
   else
   array.each_with_index do |name, index|
     empty.push("#{index+1}. #{name}")
