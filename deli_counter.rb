@@ -6,8 +6,7 @@ def take_a_number(array, name)
 
 end
 
-take_a_number(katz_deli, "vaibhav")
-take_a_number(katz_deli, "harsh")
+
 
 def line(array)
   empty = []
